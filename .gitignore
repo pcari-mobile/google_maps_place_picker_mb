@@ -9,7 +9,6 @@ coc-settings.json
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
-.fvm/flutter_sdk
 .packages
 .pub-cache/
 .pub/
@@ -90,7 +89,6 @@ lib/generated_plugin_registrant.dart
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
@@ -328,3 +326,6 @@ fabric.properties
 !/gradle/wrapper/gradle-wrapper.jar
 
 # End of https://www.toptal.com/developers/gitignore/api/flutter,vim,visualstudiocode,androidstudio,xcode,windows,macos,linux
+
+# FVM Version Cache
+.fvm/
